@@ -1,0 +1,9 @@
+#School-project.yml 
+School:
+name:  "Greenfield International School"
+address:  "12 Education Avenue, Accra, Ghana"
+contact:
+  phone:  "+233 30 123 4567"
+  email:  "info@greenfield.edu.gh"
+  principal:  
+  name:  "Dr. Ama Owusu"
