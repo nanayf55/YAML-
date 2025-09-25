@@ -1,9 +1,121 @@
-#School-project.yml 
-School:
-name:  "Greenfield International School"
-address:  "12 Education Avenue, Accra, Ghana"
-contact:
-  phone:  "+233 30 123 4567"
-  email:  "info@greenfield.edu.gh"
-  principal:  
-  name:  "Dr. Ama Owusu"
+ # school_management.yml
+ school:
+  name: "Greenfield International School"
+  address: "12 Education Avenue, Accra, Ghana"
+  contact:
+    phone: "+233 30 123 4567"
+    email: "info@greenfield.edu.gh"
+  principal:
+    name: "Dr. Ama Owusu"
+    email: "principal@greenfield.edu.gh"
+ settings:
+  academic_year: "2025-2026"
+  grading_system: "A-F"
+  language: "English"
+  school_type: "International"
+  max_absences_per_subject: 10
+ students:
+  - id: 101
+    name: "Edward Frimpong Yaw"
+    grade: "10"
+    age: 15
+ gender: "Male"
+    subjects:- Mathematics
+        
+ Physics
+      -
+      -
+ English
+ History
+    attendance:
+ Mathematics: 9
+      Physics: 10
+      English: 8
+      History: 9
+    grades:
+      Mathematics: "A"
+      Physics: "B+"
+      English: "A-"
+      History: "B"
+    extracurriculars:
+      - Football
+      - Debate Club
+  - id: 102
+    name: "Augustina Mensah"
+    grade: "11"
+    age: 16
+    gender: "Female"
+    subjects:
+      - Biology
+      - Chemistry
+      - English
+      - Geography
+    attendance:
+      Biology: 10
+      Chemistry: 9
+      English: 10
+      Geography: 9
+    grades:
+      Biology: "A"
+      Chemistry: "A-"
+      English: "B+"
+      Geography: "A"
+    extracurriculars:
+      - Science Club
+      - Choir
+ teachers:
+  - id: T01
+    name: "Mr. Kwame Boateng"
+    subject: "Mathematics"
+    email: "kwame.boateng@greenfield.edu.gh"
+    phone: "+233 24 123 4567"
+  - id: T02
+    name: "Ms. Abena Kusi"
+    subject: "English"
+    email: "abena.kusi@greenfield.edu.gh"
+    phone: "+233 24 987 6543"
+ classes:
+  - name: "Grade 10"
+    room: "101"
+    students_count: 30
+    class_teacher: "Mr. Kwame Boateng"
+    schedule:
+      Monday:
+        - subject: Mathematics
+          time: "08:00-09:30"
+        - subject: English
+          time: "09:45-11:15"
+      Tuesday:
+        - subject: Physics
+          time: "08:00-09:30"
+        - subject: History
+          time: "09:45-11:15"
+  - name: "Grade 11"
+    room: "102"
+    students_count: 28
+    class_teacher: "Ms. Abena Kusi"
+    schedule:
+      Monday:
+        - subject: Biology
+          time: "08:00-09:30"
+        - subject: Chemistry
+          time: "09:45-11:15"
+      Tuesday:
+        - subject: Geography
+          time: "08:00-09:30"
+        - subject: English
+          time: "09:45-11:15"
+ extracurricular_activities:
+  - name: "Football"
+ coordinator: "Mr. Kofi Ansah"
+ schedule: "Tuesday & Thursday, 15:00-17:00"
+  - name: "Debate Club"
+ coordinator: "Ms. Esi Asante"
+    schedule: "Wednesday, 14:00-16:00"
+  - name: "Science Club"
+    coordinator: "Dr. Kwabena Adu"
+ schedule: "Friday, 13:00-15:00"
+  name:  "Choir"
+ coordinator: "Ms. Abena Owusu"
+ schedule: "Monday, 16:00-17:30"
+ 
